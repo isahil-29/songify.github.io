@@ -1,0 +1,48 @@
+
+.bottom{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 17vh;
+    
+    
+}
+.timeStamp {
+    margin: 0px auto;
+}
+
+.songItem {
+    height: 43px;
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 26px;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    position: sticky;
+    top: 0%;
+}
+.container{
+    background-image: none;
+    font-size: 0.9rem;
+}
+.icons{
+    height: 7px;
+}
+
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+    margin: -87px;
+}
+.songInfo{
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 7vw;
+}
