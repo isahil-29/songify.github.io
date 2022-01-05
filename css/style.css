@@ -4,6 +4,10 @@
 body{
     background-color: antiquewhite;
 }
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
 *{
     font-family: 'Ubuntu', sans-serif;
 
